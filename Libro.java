@@ -2,8 +2,8 @@ package estructuralibros;
 
 /**
  *
- * @autor Valerio Pelicó
- * 0901-16-11957
+ * @autor ALEJANDRA TREJO
+ * 0901-14-17447
  */
 public class Libro implements Comparable <Libro> {
     
