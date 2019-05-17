@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 /**
  *
- * @autor Valerio Pelicó 
- * 0901-16-11957
+ * @autorALEJANDRA TREJO
+ * 
  */
 public class Lista {
 
@@ -17,7 +17,7 @@ public class Lista {
         Scanner leer = new Scanner(System.in);
         ArrayList <Libro> libros = new ArrayList <>();
         String [] menu = {"1 - Ingreso de libro", "2 - Eliminar libro (buscando por ISBN)", "3 - Mostrar la lista por ISBN", "4 - Salir"};
-        int respuesta = 0;
+        int REsULTADO = 0;
         int isbn;
         String autor;
         String titulo;
@@ -34,7 +34,7 @@ public class Lista {
             System.out.print("\n¿Opcion?    ");
             respuesta = leer.nextInt();
             
-            switch (respuesta) {
+            switch (REsULTADO) {
                 
                 case 1:
                     System.out.print("\nISBN:  ");
